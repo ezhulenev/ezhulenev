@@ -11,7 +11,7 @@ I'm a core **OpenXLA** contributor at Google. Leading a small but mighty team th
       alt="GitHub stats"
     />
   </a>
-  <a href="https://github.com/dddraxxx">
+  <a href="https://github.com/ezhulenev">
       <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=ezhulenev&theme=default&hide_border=true"
     height="160"
