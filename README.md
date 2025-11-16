@@ -11,12 +11,13 @@ I'm a core **OpenXLA** contributor at Google. Leading a small but mighty team th
       alt="GitHub stats"
     />
   </a>
+  
   <a href="https://github.com/ezhulenev">
-      <img
-    src="https://streak-stats.demolab.com?user=ezhulenev&theme=default&hide_border=true"
-    height="160"
-    alt="GitHub streak"
-  />
-
+    <img
+      src="https://streak-stats.demolab.com?user=ezhulenev&theme=default&hide_border=true"
+      height="160"
+      style="margin:6px"
+      alt="GitHub streak"
+    />
   </a>
 </p>
