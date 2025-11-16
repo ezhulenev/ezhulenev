@@ -5,7 +5,7 @@ I'm a core **OpenXLA** contributor at Google. Leading a small but mighty team th
 <p align="left">
   <a href="https://github.com/ezhulenev">
     <img
-      src="https://github-readme-stats.vercel.app/api?username=ezhulenev&theme=flag-india&show_icons=true"
+      src="https://github-readme-stats.vercel.app/api?username=ezhulenev&theme=default&show_icons=true"
       height="160"
       style="margin:6px"
       alt="GitHub stats"
@@ -14,7 +14,7 @@ I'm a core **OpenXLA** contributor at Google. Leading a small but mighty team th
   
   <a href="https://github.com/ezhulenev">
     <img
-      src="https://github-readme-streak-stats.herokuapp.com?user=ezhulenev&theme=flag-india&hide_border=true"
+      src="https://github-readme-streak-stats.herokuapp.com?user=ezhulenev&theme=default&hide_border=true"
       height="160"
       style="margin:6px"
       alt="GitHub streak"
