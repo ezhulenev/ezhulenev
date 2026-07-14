@@ -133,8 +133,8 @@ def generate_terminal(profile: dict[str, Any]) -> None:
     terminal.toggle_show_cursor(False)
     terminal.gen_text(f"EZV_OS Modular BIOS v{version}", 1)
     terminal.gen_text(f"Copyright (C) {year}, \x1b[96mEugene Zhulenev\x1b[0m", 2)
-    terminal.gen_text("\x1b[94mOpenXLA Heterogeneous Compute Engine\x1b[0m", 4)
-    terminal.gen_text("CPU: x86_64 + Arm | Accelerators: GPU + TPU", 6)
+    terminal.gen_text("\x1b[94mOpenXLA Distributed GPU Compute Engine\x1b[0m", 4)
+    terminal.gen_text("Target: NVIDIA GPU clusters | Scale: tens of thousands of GPUs", 6)
     for memory in range(0, 65537, 8192):
         terminal.delete_row(7)
         terminal.gen_text(f"Compiler cache: {memory // 1024} MB", 7, contin=True)
@@ -144,7 +144,7 @@ def generate_terminal(profile: dict[str, Any]) -> None:
 
     # Boot and login.
     terminal.clear_frame()
-    terminal.gen_text("Loading XLA runtime ", 1, contin=True)
+    terminal.gen_text("Loading distributed XLA:GPU runtime ", 1, contin=True)
     terminal.gen_typing_text(".....", 1, contin=True)
 
     terminal.clear_frame()
@@ -174,18 +174,18 @@ def generate_terminal(profile: dict[str, Any]) -> None:
     details = f"""
 \x1b[30;106m{GITHUB_USER}@GitHub\x1b[0m
 ----------------
-\x1b[96mRole:   \x1b[93mStaff Software Engineer @ Google\x1b[0m
-\x1b[96mBuild:  \x1b[93mOpenXLA compilers and runtimes for CPU, GPU, TPU\x1b[0m
-\x1b[96mFocus:  \x1b[93mJAX | CUDA | MLIR | heterogeneous execution\x1b[0m
-\x1b[96mScale:  \x1b[93mMillions of QPS on x86 and Arm\x1b[0m
-\x1b[96mBased:  \x1b[93mSan Francisco Bay Area\x1b[0m
+\x1b[96mRole:    \x1b[93mSenior Staff Software Engineer @ Google\x1b[0m
+\x1b[96mMission: \x1b[93mScale XLA:GPU pretraining to tens of thousands of GPUs\x1b[0m
+\x1b[96mRuntime: \x1b[93mThunks | command buffers | async execution\x1b[0m
+\x1b[96mComm:    \x1b[93mNCCL | symmetric memory | comm/compute overlap\x1b[0m
+\x1b[96mMemory:  \x1b[93mDynamic slice fusion | allocators | buffers\x1b[0m
+\x1b[96mAlso:    \x1b[93mXLA:CPU | heterogeneous accelerator + host\x1b[0m
 
 \x1b[30;106mGitHub Stats\x1b[0m
 ----------------
 \x1b[96mFollowers:       \x1b[93m{profile['followers']}\x1b[0m
 \x1b[96mPublic repos:    \x1b[93m{profile['repositories']}\x1b[0m
 \x1b[96mOwned repo stars:\x1b[93m {profile['stars']}\x1b[0m
-\x1b[96mOn GitHub:       \x1b[93msince {profile['since']}\x1b[0m
 
 \x1b[30;106mPublic Repo Languages\x1b[0m
 ----------------
@@ -197,7 +197,7 @@ def generate_terminal(profile: dict[str, Any]) -> None:
     terminal.toggle_show_cursor(True)
     terminal.gen_prompt(terminal.curr_row)
     terminal.gen_typing_text(
-        "\x1b[92m# Compiling the future of machine learning\x1b[0m",
+        "\x1b[92m# Scaling pretraining across tens of thousands of GPUs\x1b[0m",
         terminal.curr_row,
         contin=True,
     )

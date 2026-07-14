@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:006D9C,100:023E8A&height=200&section=header&text=Eugene%20Zhulenev&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=Staff%20Software%20Engineer%20%E2%80%A2%20Google&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" alt="Eugene Zhulenev — Staff Software Engineer at Google" width="100%" />
-
-<br />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1500&color=006D9C&center=true&vCenter=true&width=720&lines=Core+OpenXLA+Contributor;Compilers+for+CPUs+%C2%B7+GPUs+%C2%B7+TPUs;JAX+%C2%B7+XLA+%C2%B7+CUDA+%C2%B7+MLIR;Machine+Learning+Compilers+%26+Runtimes" alt="Core OpenXLA contributor building compilers for CPUs, GPUs, and TPUs" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1500&color=006D9C&center=true&vCenter=true&width=860&lines=Scaling+XLA%3AGPU+Pretraining+to+Tens+of+Thousands+of+GPUs;Distributed+GPU+Runtimes+%C2%B7+NCCL+Collectives;Communication%2FCompute+Overlap+%C2%B7+Memory+at+Scale;Core+OpenXLA+Contributor" alt="Scaling XLA:GPU pretraining to tens of thousands of GPUs" />
 
 <br /><br />
 
@@ -16,25 +12,38 @@
 
 ## About me
 
-I'm a Staff Software Engineer at Google and a core [OpenXLA](https://openxla.org/) contributor, building the compiler and runtime infrastructure behind [JAX](https://github.com/jax-ml/jax) and machine-learning workloads at scale.
+I'm a Senior Staff Software Engineer at Google and a core [OpenXLA](https://openxla.org/) contributor. My primary focus is scaling **XLA:GPU** for large-scale pretraining across tens of thousands of NVIDIA GPUs.
 
-- I lead a small team making **XLA:CPU** work exceptionally well on modern x86 and Arm CPUs, serving millions of queries per second inside Google.
-- I work on **XLA:GPU** performance for the latest NVIDIA GPUs and bring modern CUDA capabilities into the compiler stack.
-- I build heterogeneous **TPU/GPU + CPU** compilation and execution, so accelerator and host computations can live in a single JAX program.
+- I build the distributed XLA:GPU compiler and runtime infrastructure that keeps pretraining workloads efficient at cluster scale: thunks, command buffers, asynchronous execution, and communication/compute overlap.
+- My recent work spans NCCL collectives and symmetric memory, multi-peer synchronization, dynamic slice fusion, and GPU allocator and buffer-assignment improvements.
+- I also lead a small team making **XLA:CPU** work exceptionally well on modern x86 and Arm CPUs at millions-of-QPS scale, and build heterogeneous **TPU/GPU + CPU** execution for single JAX programs.
 
 <div align="center">
 
-<sub><b>Compiler & ML systems</b></sub>
+<sub><b>Scaling XLA:GPU pretraining</b></sub>
 
-![OpenXLA](https://img.shields.io/badge/OpenXLA-0057B8?style=for-the-badge&logo=google&logoColor=white)
-![XLA CPU](https://img.shields.io/badge/XLA%3ACPU-004C8C?style=for-the-badge&logo=llvm&logoColor=white)
 ![XLA GPU](https://img.shields.io/badge/XLA%3AGPU-006D9C?style=for-the-badge&logo=nvidia&logoColor=white)
-![JAX](https://img.shields.io/badge/JAX-004C8C?style=for-the-badge&logo=google&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-006D9C?style=for-the-badge&logo=nvidia&logoColor=white)
+![Pretraining at Scale](https://img.shields.io/badge/Pretraining%20at%20Scale-004C8C?style=for-the-badge&logoColor=white)
+![10,000s of GPUs](https://img.shields.io/badge/10%2C000s%20of%20GPUs-0057B8?style=for-the-badge&logo=nvidia&logoColor=white)
+![NCCL Collectives](https://img.shields.io/badge/NCCL%20Collectives-004C8C?style=for-the-badge&logo=nvidia&logoColor=white)
+![GPU Runtimes](https://img.shields.io/badge/GPU%20Runtimes-006D9C?style=for-the-badge&logo=nvidia&logoColor=white)
+![Command Buffers](https://img.shields.io/badge/Command%20Buffers-0057B8?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Comm / Compute](https://img.shields.io/badge/Comm%20%2F%20Compute-004C8C?style=for-the-badge&logoColor=white)
+![Dynamic Slice Fusion](https://img.shields.io/badge/Dynamic%20Slice%20Fusion-006D9C?style=for-the-badge&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-0057B8?style=for-the-badge&logo=nvidia&logoColor=white)
+![OpenXLA](https://img.shields.io/badge/OpenXLA-004C8C?style=for-the-badge&logo=google&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-006D9C?style=for-the-badge&logo=google&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-0057B8?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+<br /><br />
+
+<sub><b>Additional compiler work</b></sub>
+
+![XLA CPU](https://img.shields.io/badge/XLA%3ACPU-006D9C?style=for-the-badge&logo=llvm&logoColor=white)
 ![MLIR](https://img.shields.io/badge/MLIR-004C8C?style=for-the-badge&logo=llvm&logoColor=white)
 ![LLVM](https://img.shields.io/badge/LLVM-0057B8?style=for-the-badge&logo=llvm&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-004C8C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-006D9C?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-004C8C?style=for-the-badge&logo=python&logoColor=white)
+
 <br /><br />
 
 <sub><b>Earlier work & writing</b></sub>
@@ -45,12 +54,8 @@ I'm a Staff Software Engineer at Google and a core [OpenXLA](https://openxla.org
 
 <br />
 
-<img src="./assets/terminal.gif" alt="" width="750" />
+<img src="./assets/terminal.gif" alt="Animated terminal profile highlighting XLA:GPU pretraining at tens-of-thousands-of-GPUs scale" width="750" />
 
 <sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">github-readme-terminal</a> and refreshed weekly by GitHub Actions.</i></sub>
-
-<br />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:006D9C,100:023E8A&height=100&section=footer" alt="" width="100%" />
 
 </div>
