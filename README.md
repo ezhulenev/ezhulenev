@@ -1,11 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=20&duration=3000&pause=1500&color=006D9C&center=true&vCenter=true&width=860&lines=Scaling+XLA%3AGPU+Pretraining+to+Tens+of+Thousands+of+GPUs;Distributed+GPU+Runtimes+%C2%B7+NCCL+Collectives;Communication%2FCompute+Overlap+%C2%B7+Memory+at+Scale;Core+OpenXLA+Contributor" alt="Scaling XLA:GPU pretraining to tens of thousands of GPUs" />
-
-<br /><br />
-
-<a href="https://www.linkedin.com/in/eugenezhulenev/"><img src="https://img.shields.io/badge/LinkedIn-Eugene%20Zhulenev-004C8C?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;
-<a href="https://ezhulenev.com/"><img src="https://img.shields.io/badge/Writing%20archive-ezhulenev.com-006D9C?style=flat-square&logo=rss&logoColor=white" alt="Writing archive" /></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/eugenezhulenev/"><img src="https://img.shields.io/badge/LinkedIn-Profile-004C8C?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>&nbsp;&nbsp;
 <a href="https://github.com/openxla/xla"><img src="https://img.shields.io/badge/OpenXLA-Contributor-004C8C?style=flat-square&logo=github&logoColor=white" alt="OpenXLA" /></a>
 
 </div>
